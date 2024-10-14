@@ -1,0 +1,31 @@
+/* src/App.css */
+
+:root {
+  --color-range-7: #ffffff; /* Lightest */
+  --color-range-6: #e0e0e0;
+  --color-range-5: #c0c0c0;
+  --color-range-4: #a0a0a0;
+  --color-range-3: #808080;
+  --color-range-2: #606060;
+  --color-range-1: #404040;
+  --color-range-0: #000000; /* Darkest */
+  --color-transition-speed: 0.5s;
+}
+
+body {
+  background-color: var(--color-range-7);
+  color: var(--color-range-0);
+  transition: background-color var(--color-transition-speed), color var(--color-transition-speed);
+}
+
+body.dark-mode {
+  background-color: var(--color-range-0);
+  color: var(--color-range-7);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}

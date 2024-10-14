@@ -1,0 +1,18 @@
+/* src/index.css */
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
